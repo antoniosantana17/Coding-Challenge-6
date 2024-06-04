@@ -1,3 +1,4 @@
+// U41684674
 // Ball Constructor
 class Ball {
     constructor(x, y, radius, dx, dy, color) {
@@ -8,4 +9,15 @@ class Ball {
         this.dy = dy;
         this.color = color;
     }
-}
+
+ // Draw Function
+ draw(ctx) {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+    ctx.fillStyle = this.color;
+    ctx.fill();
+    ctx.closePath();
+    }
+}  
+
+
