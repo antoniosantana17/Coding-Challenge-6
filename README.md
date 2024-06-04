@@ -1,1 +1,3 @@
 # Coding-Challenge-6
+
+The goal of the Bouncing Ball Animation Challenge is to create an interactive animation in which a ball bounces within a canvas element using HTML5 and JavaScript. To initialize parameters like location, radius, velocity, and color, the project first sets up the HTML canvas and implements a Ball class. While an update method controls the ball's movement and collision detection with the canvas edges, a draw method depicts the ball on the canvas. The ball's location is updated and repainted repeatedly using setInterval to provide a fluid animation. The end product is a dynamic and captivating visual presentation. 
